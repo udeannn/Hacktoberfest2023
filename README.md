@@ -1,4 +1,4 @@
-# HacktoberFest 2023 `OPEN FIRST` Pull Request
+# HacktoberFest 2023 FOR YOUR `OPEN FIRST` Pull Request
 ![HacktoberFest 2023](https://github.com/udeannn/Hacktoberfest2023/raw/main/.github/hacktoberfest2023.png)
 
 
