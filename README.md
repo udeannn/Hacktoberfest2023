@@ -23,7 +23,7 @@
 Create a markdown file in your folder following the convention `participant/YOUR-USERNAME.md`. Ex.
 
 ```
-content/participant/YOUR-USERNAME.md
+participant/YOUR-USERNAME.md
 ```
 
 Copy the next template into your file, delete the boilerplate data and fill the information with yours.
@@ -38,7 +38,7 @@ country: YOUR COUNTRY
 
 ## 2. Make your project
 Create/Upload your code in folder following the convention `projects`
-Create/Upload your image project result in folder following the convention `projects result`
+Upload your image project result in folder following the convention `projects result`
 ```
 projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 ```
