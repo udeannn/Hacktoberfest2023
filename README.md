@@ -51,8 +51,10 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 <table>
   <tr>
     <td>Gacha Weapon</td>
+    <td>Blog Website</td>
   </tr>
   <tr>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/sword-gacha-udeannn.png" width=270></td>
+    <td><img src="./projects result/Blog_website.png" width=270></td>
   </tr>
 <table>
