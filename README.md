@@ -37,8 +37,8 @@ country: YOUR COUNTRY
 ```
 
 ## 2. Make your project
-Create/Upload your code in folder following the convention `projects`
-Upload your image project result in folder following the convention `projects result`
+- Create/Upload your code in folder following the convention `projects`
+- Upload your image project result in folder following the convention `projects result`
 ```
 projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 ```
