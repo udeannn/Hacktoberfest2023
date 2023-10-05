@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sign Up - Airline Reservation System</title>
+</head>
+
+<body style="background-image: url('flight pic.webp');">
+  <div class="breaking-news">
+    <div class="breaking-news-inner">
+      <div class="ticker">
+        <div class="news-item">Limited Time Offer: Save Big with 50% Off on Select Flights!</div>
+        <div class="news-item">New Destination Alert: Exciting Flights Now Available to Your Dream Vacation Spot!</div>
+        <div class="news-item">Enhanced Safety Measures: Travel with Confidence on Our Sanitized Flights.</div>
+        <div class="news-item">Exclusive Deal: Earn Double Reward Points on Your Next Booking!</div>
+        <div class="news-item">Last-Minute Getaway: Special Discounts on Same-Day Flights!</div>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div id="logo-container">
+      <img src="logo.png" alt="Logo">
+    </div>
+  </header>
+  <div class="advertisement">
+    <p>Special Offer for New Customers</p>
+    <div id="countdown">
+      <span id="countdown-text">Time left: </span>
+      <span id="countdown-hours" class="text">01</span class="text">:<span id="countdown-minutes" class="text">00</span
+        class="text">:<span id="countdown-seconds" class="text">00</span>
+    </div>
+    <br><br>
+    <p>Flat 50% off</p>
+    <p>Use Code : FLAT50</p>
+    <p class="small-text">*Terms & Conditions apply</p>
+  </div>
+  <div id="text-animation"></div>
+  <div class="container" id="signup-container">
+    <img src="air hostess.webp" alt="Handshake" class="background-image">
+    <!-- Your existing signup form elements -->
+
+    <h2>Sign Up</h2>
+    <form id="signup-form" onsubmit="return validateForm()">
+
+      <!-- Your form fields here -->
+      <div class="form-group">
+        <input type="text" id="firstName" placeholder="First Name" required>
+        <input type="text" id="lastName" placeholder="Last Name" required>
+      </div>
+      <div class="form-group">
+        <input type="text" id="username" placeholder="Username" required>
+      </div>
+      <div class="form-group">
+        <input type="password" name="password" placeholder="Password" id="password">
+        <p class="error" id="error"></p>
+        <div class="instructions">
+          <p>Password must meet the following criteria:</p>
+          <ul>
+            <li>At least 8 characters</li>
+            <li>Contains at least one number</li>
+            <li>Contains at least one uppercase letter</li>
+            <li>Contains at least one special symbol</li>
+          </ul>
+        </div>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+      </div>
+      <button type="submit" id="submit-button" disabled>Submit</button>
+    </form>
+
+  </div>
+
+
+  <footer>
+    Made with <span class="heart">&#10084;</span> by <span class="red">Aditya</span>, <span class="red">Aman</span>,
+    <span class="red">Balveer</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+  
+  #logo-container {
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #logo-container img {
+    max-width: 100%;
+    height: 100px;
+  }
+  
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    animation: fadeIn 0.5s;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Change button styles on hover */
+  button:hover {
+    background-color: black;
+    /* Change background color to black on hover */
+    color: white;
+    /* Change text color to white on hover */
+  }
+  
+  header img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+    /* Add a transition effect on transform */
+  }
+  
+  /* Apply zoom-in effect on logo when cursor hovers over it */
+  header img:hover {
+    transform: scale(1.1);
+    /* Increase the size by 10% on hover */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    /* Set the position to fixed */
+    bottom: 0;
+    /* Position at the bottom of the screen */
+    width: 100%;
+    /* Occupy the full width of the screen */
+  }
+  
+  .heart {
+    color: red;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  /* Add styles for the breaking news ticker */
+  .breaking-news {
+    background-color: blue;
+    /* Background color for the ticker */
+    color: #ffffff;
+    /* Text color */
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .breaking-news-inner {
+    width: 100%;
+    white-space: nowrap;
+    animation: ticker-animation 15s linear infinite;
+    /* Adjust the duration as needed */
+  }
+  
+  .ticker {
+    display: inline-block;
+  }
+  
+  .news-item {
+    padding: 0 20px;
+    /* Add spacing between news items */
+    display: inline-block;
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes ticker-animation {
+    0% {
+      transform: translateX(100%);
+      /* Start from the right */
+    }
+  
+    100% {
+      transform: translateX(-100%);
+      /* Move to the left */
+    }
+  }
+  
+  .advertisement {
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translate(0, -50%);
+    padding: 10px;
+    background-color: #ffc107;
+    /* Adjust the color as needed */
+    border-radius: 5px;
+  }
+  
+  .small-text {
+    font-size: 10px;
+    /* Adjust the font size as needed */
+    position: absolute;
+    bottom: 5px;
+    /* Position at the bottom */
+    right: 5px;
+    /* Position at the right */
+  }
+  
+  #countdown {
+    font-size: 18px;
+  }
+  
+  .text {
+    color: red;
+    font-size: 40px;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: transparent;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    /* Adjust opacity as needed */
+    z-index: -1;
+    /* Place the image behind other content */
+  }
+  
+  .container {
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Add a semi-transparent background to the form container */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    /* Center the contents horizontally within the container */
+  }
+  
+  #signup-form input {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    /* Add a border for better visibility */
+  }
+  
+  #text-animation {
+    color: blueviolet;
+    font-size: 30px;
+    font-style: italic;
+    justify-content: center;
+  }
+  
+  .instructions {
+      color: #ff0000;
+      font-size: 12px;
+      margin-top: 5px;
+      display: none;
+  }
+  
+  button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+  }
