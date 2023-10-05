@@ -42,6 +42,7 @@ country: YOUR COUNTRY
 ```
 projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 ```
+- Update `README.md` place your image project result and name your project
 
 ## 3. Wait for Pull Request to merge
 
@@ -51,8 +52,12 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 <table>
   <tr>
     <td>Gacha Weapon</td>
+    <td>Rock Paper Scissor</td>
+    <td>Length Calc</td>
   </tr>
   <tr>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/sword-gacha-udeannn.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/rock-paper-scissor-sanika.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/length-calc-bagas.png" width=270></td>
   </tr>
 <table>
