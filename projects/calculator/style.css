@@ -1,0 +1,103 @@
+/* Import the Roboto Mono font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+/* Define CSS variables for colors */
+:root {
+    --primary-color: darkblue;
+    --secondary-color: DimGrey;
+    --tertiary-color: Gainsboro;
+}
+
+/* Apply styles to the body element */
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: Roboto Mono, sans-serif;
+}
+
+/* Style the main container */
+#container {
+    height: 525px;
+    width: 360px;
+    margin: auto;
+    background: #F7F7F7;
+    box-shadow: 5px 10px 5px #252525;
+    border-radius: 20px;
+}
+
+/* Style the title section */
+.title {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Style the form elements */
+.calcForm {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.formInput {
+    background: white;
+    width: 180px;
+    padding: 3px 3px 5px 5px;
+}
+
+.formInput:hover {
+    border: 3px dashed var(--primary-color);
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formButton {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--tertiary-color);
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+}
+
+.formInput:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formSelect:hover {
+    border: 3px dashed var(--primary-color);
+    outline: none;
+}
+
+.formSelect:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formButton:hover {
+    border: 3px dashed var(--primary-color);
+    outline: none;
+}
+
+.formButton:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+/* Style the result section */
+#resultado {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
