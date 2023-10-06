@@ -55,13 +55,15 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Rock Paper Scissor</td>
     <td>Length Calc</td>
     <td>Youtube DL</td>
-    <td>Parse Text large</td>
+    <td>Calculator</td>
+    <td>Text Parse large</td>
   </tr>
   <tr>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/sword-gacha-udeannn.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/rock-paper-scissor-sanika.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/length-calc-bagas.PNG" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/youtube-dl-ShirokamiRyzen.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/parse-text-large.png.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Calculator-ZPitta.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/parse-text-large.png" width=270></td>
   </tr>
 <table>
