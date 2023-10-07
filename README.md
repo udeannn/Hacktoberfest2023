@@ -70,19 +70,23 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/length-calc-bagas.PNG" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/google-keep-clone.jpg" width=270></td>
   </tr>
-<table>
+</table>
 <table>
   <tr>
     <td>Youtube DL</td>
     <td>Calculator</td>
     <td>3D Portfolio</td>
+    <td>Array Sort Object JS</td>
+    <td>Show Portfolio</td>
   </tr>
   <tr>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/youtube-dl-ShirokamiRyzen.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Calculator-ZPitta.png" width=270></td>
     <td><img src="https://github.com/ShauryaSingh14/Hacktoberfest2023/blob/main/projects%20result/3D-Portfolio-ShauryaSingh14.png" width=270></td>
+    <td><img src="./projects result/array-sort.png" width=270></td>
+    <td><img src="https://raw.githubusercontent.com/tedante/Hacktoberfest2023/main/projects%20result/show-portfolio-tedante.png" width=270></td>
   </tr>
-<table>
+</table>
 <table>
   <tr>
     <td>Text Parse large</td>
@@ -94,12 +98,30 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/Blog_website.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/register-form-reaact-aiyafi.png" width=270></td>
   </tr>
+</table>
+
+
 <table>
-<table>
+  <tr>
+    <td>Todo App</td>
+    <td>One Page Website</td>
+    <td>Car Rental<td>
+    <td>CRUD Product</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/todo-app.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/one-page-website.png" width=270></td>
+    <td><img src="https://github.com/mizzcode/Hacktoberfest2023/blob/main/projects%20result/car-rental-mizzcode.png" width="270"><td>
+    <td><img src="./projects result/crud-product-risdatamamal.png" width=270></td>
+  </tr>
+</table>
+
+  
+ <table>
   <tr>
     <td>Statistika Helper</td>
   </tr>
   <tr>
     <td><img src="./projects result/statistika-helper-rikarani.png" width=270></td>
   </tr>
-<table>
+</table>
