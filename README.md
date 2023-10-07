@@ -70,7 +70,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/length-calc-bagas.PNG" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/google-keep-clone.jpg" width=270></td>
   </tr>
-<table>
+</table>
 <table>
   <tr>
     <td>Youtube DL</td>
@@ -82,7 +82,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Calculator-ZPitta.png" width=270></td>
     <td><img src="https://github.com/ShauryaSingh14/Hacktoberfest2023/blob/main/projects%20result/3D-Portfolio-ShauryaSingh14.png" width=270></td>
   </tr>
-<table>
+</table>
 <table>
   <tr>
     <td>Text Parse large</td>
@@ -94,13 +94,18 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/Blog_website.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/register-form-reaact-aiyafi.png" width=270></td>
   </tr>
-<table>
+</table>
+
+
 <table>
   <tr>
     <td>Todo App</td>
-    <td>List your todos</td>
+    <td>One Page Website</td>
   </tr>
   <tr>
     <td><img src="./projects result/todo-app.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/one-page-website.png" width=270></td>
   </tr>
-<table>
+
+</table>
+
