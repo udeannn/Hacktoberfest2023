@@ -74,7 +74,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   </tr>
 <table>
 <table>
-  <tr>>
+  <tr>
     <td>Text Parse large</td>
   </tr>
   <tr>
