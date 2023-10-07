@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+
+  <!-- Include Tailwind CSS and DaisyUI CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.20.0/dist/full.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar bg-base-100">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl">Showcase Project</a>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <li><a>About</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Projects Section -->
+  <section class="py-12">
+    <h2 class="text-3xl font-semibold text-center mb-8">My Projects</h2>
+    <div class="container mx-auto">
+      <div class="flex flex-wrap justify-center">
+        <div class="card w-96 bg-base-100 shadow-xl mx-4 mb-8">
+          <figure><img src="http://placekitten.com/200/200" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              TaskMaster
+            </h2>
+            <p>TaskMaster is a sleek and efficient task management web app designed to streamline your daily tasks and
+              boost your productivity.</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">NodeJS</div>
+              <div class="badge badge-outline">React</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl mx-4 mb-8">
+          <figure><img src="http://placekitten.com/200/200" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              CalcEasy
+            </h2>
+            <p>CalcEasy is a user-friendly online calculator that simplifies complex calculations and provides instant
+              results.</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">NodeJS</div>
+              <div class="badge badge-outline">React</div>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-xl mx-4 mb-8">
+          <figure><img src="http://placekitten.com/200/200" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              BlogVista
+            </h2>
+            <p>BlogVista is a dynamic blogging platform that empowers users to create, share, and engage with
+              captivating content and stories.</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">NodeJS</div>
+              <div class="badge badge-outline">React</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Build with ❤️</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
