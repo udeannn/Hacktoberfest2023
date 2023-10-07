@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class="font-huruf">
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web Sederhana Buat Bantu Ngerjain Soal Statistika Sederhana" />
+    <meta name="keywords" content="hitung, statistika, bantu, sederhana, sd" />
+    <meta name="author" content="rikarani" />
+    <!-- Meta Tag -->
+
+    <title>Statistika Helper</title>
+
+    <!-- Custom Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Font -->
+
+    <!-- Favico -->
+    <link rel="icon" href="public/assets/icon/stats.ico" />
+    <!-- Favico -->
+
+    <link rel="stylesheet" href="public/css/output.css" />
+  </head>
+  <body class="bg-gray-100">
+    <section id="header">
+      <header class="container box-border max-w-2xl py-2 px-4">
+        <!-- Atas -->
+        <div class="flex items-center justify-between">
+          <!-- Logo Github -->
+          <a href="https://github.com/rikarani/statistika-helper" target="_blank" class="block h-12 w-12 shrink-0">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              />
+            </svg>
+          </a>
+          <!-- Logo Github -->
+        </div>
+        <!-- Atas -->
+
+        <!-- Bawah -->
+        <div class="mt-2 sm:text-center">
+          <h1 class="-mb-1.5 text-3xl font-bold">Statistika Helper</h1>
+          <h5 class="capitalize">website sederhana buat bantu ngerjain soal statistika sederhana</h5>
+        </div>
+        <!-- Bawah -->
+      </header>
+    </section>
+
+    <section id="konten">
+      <main class="container box-border block max-w-4xl divide-y divide-black bg-fuchsia-500/40 py-2 px-4 sm:flex sm:divide-x sm:divide-y-0 sm:rounded-lg">
+        <!-- Atas -->
+        <form id="input-form" class="mb-2 w-full sm:mr-2 sm:w-1/2">
+          <!-- Textarea buat Input Data -->
+          <div class="sm:h-[202px]">
+            <label for="input-data" class="text-base font-semibold">Masukkan Data</label>
+            <textarea
+              id="input-data"
+              rows="4"
+              class="form-textarea box-border w-full resize-y rounded bg-transparent placeholder:text-sm placeholder:font-medium placeholder:text-black/50 focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500 focus:placeholder:opacity-0 sm:h-full sm:resize-none"
+              placeholder="contoh : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            ></textarea>
+          </div>
+          <!-- Textarea buat Input Data -->
+
+          <!-- Tombol -->
+          <div class="flex gap-2 sm:mt-[39.5px]">
+            <button id="hitung" type="button" class="w-full rounded border-2 border-fuchsia-600 bg-fuchsia-600 py-2 text-lg font-medium text-gray-200 sm:py-[5.5px]">Hitung</button>
+            <button
+              id="reset"
+              type="button"
+              class="w-full rounded border-2 border-fuchsia-600 bg-transparent py-2 text-lg font-medium text-fuchsia-800 transition duration-300 ease-in-out sm:py-[5.5px] sm:hover:bg-fuchsia-600 sm:hover:text-gray-200"
+            >
+              Reset
+            </button>
+          </div>
+          <!-- Tombol -->
+        </form>
+        <!-- Atas -->
+
+        <!-- Bawah -->
+        <div class="w-full sm:w-1/2">
+          <form id="result-form" class="mt-1 w-full sm:mt-0 sm:ml-2">
+            <!-- Textarea buat Tampilkan Data yang udah terurut -->
+            <div class="w-full sm:mt-0">
+              <label for="sorted-data" class="text-base font-semibold">Data yang sudah terurut</label>
+              <textarea id="sorted-data" rows="4" class="form-textarea w-full resize-y rounded bg-transparent sm:resize-none" readonly disabled></textarea>
+            </div>
+            <!-- Textarea buat Tampilkan Data yang udah terurut -->
+
+            <!-- 5 Field Lainnya -->
+            <div>
+              <!-- Nilai Terbesar & Terkecil -->
+              <div class="flex gap-3">
+                <div class="mt-1 w-1/2">
+                  <label class="block text-base font-semibold">Nilai Terbesar</label>
+                  <input type="text" id="terbesar" class="w-full rounded bg-transparent" readonly disabled />
+                </div>
+
+                <div class="mt-1 w-1/2">
+                  <label class="block text-base font-semibold">Nilai Terkecil</label>
+                  <input type="text" id="terkecil" class="w-full rounded bg-transparent" readonly disabled />
+                </div>
+              </div>
+              <!-- Nilai Terbesar & Terkecil -->
+
+              <!-- Rata-Rata, Median, Modus -->
+              <div class="flex w-full gap-3">
+                <div class="mt-1">
+                  <label class="block text-base font-semibold">Rata-Rata</label>
+                  <input type="text" id="rata" class="w-full rounded bg-transparent" readonly disabled />
+                </div>
+
+                <div class="mt-1">
+                  <label class="block text-base font-semibold">Median</label>
+                  <input type="text" id="median" class="w-full rounded bg-transparent" readonly disabled />
+                </div>
+
+                <div class="mt-1">
+                  <label class="block text-base font-semibold">Modus</label>
+                  <input type="text" id="modus" class="w-full rounded bg-transparent" readonly disabled />
+                </div>
+              </div>
+              <!-- Rata-Rata, Median, Modus -->
+            </div>
+            <!-- 5 Field Lainnya -->
+          </form>
+        </div>
+        <!-- Bawah -->
+      </main>
+    </section>
+
+    <div id="chart-wrapper" class="container mt-2 box-border hidden max-w-4xl divide-y-2 divide-black px-4 py-2">
+      <div>
+        <label for="chartType">Tipe Grapik :</label>
+        <select id="chartType" class="border-0 bg-transparent focus:ring-0">
+          <option value="bar">Batang</option>
+          <option value="line">Garis</option>
+        </select>
+      </div>
+
+      <div>
+        <canvas id="canvas"></canvas>
+      </div>
+    </div>
+
+    <section id="footer">
+      <footer class="container box-border py-2 px-4">
+        <h5 class="text-center text-xs text-black">&copy; <span id="tahun"></span> created with &hearts; by <a href="https://github.com/rikarani">rikarani</a></h5>
+      </footer>
+    </section>
+
+    <script src="public/js/script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script type="module">
+      import { formatInput, filterInput, createDataset } from "./public/js/modules/utilities/utilities.js";
+
+      const tombolHitung = document.getElementById("hitung");
+      const type = document.querySelector("select");
+      const canvas = document.getElementById("canvas");
+
+      // Function buat Update Chart
+      const updateChart = () => {
+        const textarea = document.getElementById("input-data");
+        const sourceData = createDataset(filterInput(formatInput(textarea.value)));
+        const tipe = type.value;
+
+        // clone config
+        const temp = jQuery.extend(true, {}, chartConfig);
+
+        // set config berdasarkan tipe chart
+        switch (tipe) {
+          case "bar":
+            temp.type = `${tipe}`;
+            temp.data.labels = sourceData.map((value) => value.angka);
+            temp.data.datasets[0].data = sourceData.map((value) => value.kejadian);
+            temp.options.plugins.legend.labels.boxWidth = 0;
+            temp.options.scales.y.display = true;
+            temp.options.scales.y.beginAtZero = true;
+          case "line":
+            temp.type = `${tipe}`;
+            temp.data.labels = sourceData.map((value) => value.angka);
+            temp.data.datasets[0].data = sourceData.map((value) => value.kejadian);
+            temp.data.datasets[0].fill = true;
+            temp.options.plugins.legend.labels.boxWidth = 0;
+            temp.options.scales.y.display = true;
+            temp.options.scales.y.beginAtZero = true;
+        }
+
+        if (myChart) {
+          myChart.destroy();
+        }
+
+        myChart = new Chart(canvas, temp);
+      };
+
+      const chartConfig = {
+        type: "pie",
+        data: {
+          labels: [],
+          datasets: [
+            {
+              label: "Frekuensi",
+              data: [],
+              backgroundColor: ["rgba(255, 99, 132, 0.2)", "rgba(255, 159, 64, 0.2)", "rgba(255, 205, 86, 0.2)", "rgba(75, 192, 192, 0.2)", "rgba(54, 162, 235, 0.2)", "rgba(153, 102, 255, 0.2)"],
+              borderColor: ["rgb(255, 99, 132)", "rgb(255, 159, 64)", "rgb(255, 205, 86)", "rgb(75, 192, 192)", "rgb(54, 162, 235)", "rgb(153, 102, 255)"],
+              borderWidth: 1.5,
+            },
+          ],
+        },
+        options: {
+          plugins: {
+            legend: {
+              labels: {
+                boxWidth: 40,
+              },
+            },
+          },
+          scales: {
+            y: {
+              display: false,
+              beginAtZero: true,
+            },
+          },
+        },
+      };
+
+      // canvas sementara
+      let myChart = new Chart(canvas, chartConfig);
+
+      // Update Chart pas tombol hitung di-klik
+      /*
+      Reference : https://stackoverflow.com/questions/36949343/chart-js-dynamic-changing-of-chart-type-line-to-bar-as-example
+      */
+      tombolHitung.addEventListener("click", updateChart);
+
+      // Update Chart pas tipenya diubah
+      /*
+      Reference : https://stackoverflow.com/questions/36949343/chart-js-dynamic-changing-of-chart-type-line-to-bar-as-example
+      */
+      type.addEventListener("change", updateChart);
+    </script>
+  </body>
+</html>
