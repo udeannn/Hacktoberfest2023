@@ -16,8 +16,7 @@ copyButton.addEventListener('click', () => {
     navigator.clipboard.writeText(output.value)
     .then(() => {
         alert('Text copied to clipboard');
-    })
-        .catch(err => {
+    }).catch(err => {
         alert('Error in copying text: ', err);
     });
 });
