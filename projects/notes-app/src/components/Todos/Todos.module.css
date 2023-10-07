@@ -1,0 +1,60 @@
+.todos {
+  box-shadow: var(--main-box-shadow);
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  border-radius: 8px;
+  max-height: 640px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 60px;
+  padding: 12px 16px;
+  background-color: var(--secondary-background-color-light);
+
+  color: var(--main-font-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.todoCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 32px;
+  height: 24px;
+  border-radius: 4px;
+
+  color: var(--label-font-color);
+  background-color: var(--secondary-background-color);
+  box-shadow: var(--main-box-shadow-inset);
+}
+
+.todoIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  align-items: center;
+
+  width: 120px;
+}
+
+.todoActionButton {
+  border: none;
+  background-color: unset;
+  padding: unset;
+
+  height: 24px;
+  width: 24px;
+}
+
+.todoDivider {
+  border-bottom: 1px solid var(--main-border-color);
+}
