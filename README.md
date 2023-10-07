@@ -76,11 +76,13 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Youtube DL</td>
     <td>Calculator</td>
     <td>3D Portfolio</td>
+    <td>Show Portfolio</td>
   </tr>
   <tr>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/youtube-dl-ShirokamiRyzen.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Calculator-ZPitta.png" width=270></td>
     <td><img src="https://github.com/ShauryaSingh14/Hacktoberfest2023/blob/main/projects%20result/3D-Portfolio-ShauryaSingh14.png" width=270></td>
+    <td><img src="https://raw.githubusercontent.com/tedante/Hacktoberfest2023/main/projects%20result/show-portfolio-tedante.png" width=270></td>
   </tr>
 </table>
 <table>
