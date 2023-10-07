@@ -87,4 +87,14 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/Blog_website.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/register-form-reaact-aiyafi.png" width=270></td>
   </tr>
+
 <table>
+
+<table>
+  <tr>
+    <td>One Page Website</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/one-page-website.png" width=270></td>
+  </tr>
+</table>
