@@ -141,3 +141,14 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/notes-app.png" width=270></td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td>Calculator by HTML-CSS-JS</td>
+
+  </tr>
+  <tr>
+    <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/Calculator-by-HTML-CSS-JS_BupendraDhyan.png" width=270></td>
+
+  </tr>
+</table>
