@@ -100,7 +100,6 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   </tr>
 </table>
 
-
 <table>
   <tr>
     <td>Todo App</td>
@@ -116,7 +115,6 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   </tr>
 </table>
 
-  
  <table>
   <tr>
     <td>Statistika Helper</td>
@@ -136,5 +134,13 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/E-commerce.png" width=270></td>
     <td><img src="./projects result/E-commerce.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/E-commerce.png" width=270></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>Dice Game</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/Dice-Game.PNG" width=270></td>
   </tr>
 </table>
