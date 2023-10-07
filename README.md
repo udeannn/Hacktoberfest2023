@@ -56,12 +56,16 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Length Calc</td>
     <td>Youtube DL</td>
     <td>Calculator</td>
+    <td>3D Portfolio</td>
   </tr>
   <tr>
+    
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/sword-gacha-udeannn.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/rock-paper-scissor-sanika.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/length-calc-bagas.PNG" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/youtube-dl-ShirokamiRyzen.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Calculator-ZPitta.png" width=270></td>
+    <td><img src="https://github.com/ShauryaSingh14/Hacktoberfest2023/blob/main/projects%20result/3D-Portfolio-ShauryaSingh14.png" width=270></td>
+
   </tr>
 <table>
