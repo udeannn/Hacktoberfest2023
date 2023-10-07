@@ -92,14 +92,15 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Text Parse large</td>
     <td>Blog Website</td>
     <td>Register Form React</td>
+    <td>Secrets</td>
   </tr>
   <tr>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/parse-text-large.png" width=270></td>
     <td><img src="./projects result/Blog_website.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/register-form-reaact-aiyafi.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Secrets-sharmavikas4.png" width=270></td>
   </tr>
 </table>
-
 
 <table>
   <tr>
@@ -116,7 +117,6 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   </tr>
 </table>
 
-  
  <table>
   <tr>
     <td>Statistika Helper</td>
@@ -141,9 +141,11 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 
 <table>
   <tr>
+    <td>Dice Game</td>
     <td>Gues Game JavaScript</td>
   </tr>
   <tr>
+    <td><img src="./projects result/Dice-Game.PNG" width=270></td>
     <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/gues-game-project.png" width=270></td>
   </tr>
 </table>
