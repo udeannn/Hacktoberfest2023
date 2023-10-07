@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplier</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-lime-100">
+
+
+    <div class="flex text-center justify-center h-screen items-center">
+        <div class="w-1/4 bg-lime-300 grid grid-cols-1 gap-y-4 p-5 border border-black rounded-lg">
+          <h1 class="text-2xl">Word Multiplier</h1>
+    
+          <div id="output" class="overflow-y-auto">
+            <textarea class="p-2 h-80 w-3/4 resize-none" name="wordMultiplier" readonly></textarea>
+          </div>
+    
+          <div id="inputText">
+            <label for="text">Text to multiply</label>
+            <input class="w-3/4" type="text" name="inputText" value="">
+          </div>
+    
+          <div id="inputNumber">
+            <label for="number">Multiply by</label>
+            <input class="w-3/4" type="number" name="inputNumber" value="" min="1" max="1000">
+          </div>
+    
+          <div>
+            <button id="submit" class="bg-sky-400 p-2 rounded-xl text-white hover:bg-sky-500">Multiply</button>
+            <button id="copy" class="bg-green-400 p-2 rounded-xl text-white hover:bg-green-500">Copy</button>
+            <button id="reset" class="bg-yellow-400 p-2 rounded-xl text-white hover:bg-yellow-500">Reset</button>
+          </div>
+
+          
+        </div>
+
+    </div>
+
+
+  <script  src="./script.js"></script>
+</body>
+</html>
