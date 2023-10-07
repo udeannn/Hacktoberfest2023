@@ -93,6 +93,6 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Car Rental<td>
   <tr>
   <tr>
-    <td><img src="https://github.com/mizzcode/Hacktoberfest2023/blob/main/projects%20result/card-rental-misbahudin.png" width="270"><td>
+    <td><img src="https://github.com/mizzcode/Hacktoberfest2023/blob/main/projects%20result/car-rental-mizzcode.png" width="270"><td>
   <tr>
 <table>
