@@ -17,6 +17,7 @@
 - Update README.md and add your project name and project result image
 - Create a pull request
 - Star this repository
+- You can open issue when your PR is problem in event
 
 # How To Make Your First Pull Request
 ## 1. Add your profile information
