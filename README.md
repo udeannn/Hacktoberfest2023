@@ -88,3 +88,11 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/register-form-reaact-aiyafi.png" width=270></td>
   </tr>
 <table>
+<table>
+  <tr>
+    <td>CRUD Product</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/crud-product-risdatamamal.png" width=270></td>
+  </tr>
+<table>
