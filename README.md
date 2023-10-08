@@ -144,13 +144,9 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 
  <table>
   <tr>
-    <td>Article</td>
     <td>Landing Page Article</td>
-    <td>Article</td>
   </tr>
   <tr>
-    <td><img src="./projects result/LandingPage-article.png" width=270></td>
-    <td><img src="https://github.com/armadani/Hacktoberfest2023/blob/main/projects%20result/LandingPage-article.png" width=270></td>
     <td><img src="./projects result/LandingPage-article.png" width=270></td>
   </tr>
 </table>
