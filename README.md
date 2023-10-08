@@ -134,10 +134,12 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Dice Game</td>
     <td>Gues Game JavaScript</td>
   <td>Notes APP</td>
+  <td>Tictactoe Game</td>
   </tr>
   <tr>
     <td><img src="./projects result/Dice-Game.PNG" width=270></td>
     <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/gues-game-project.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/notes-app.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/tictactoe-game.png" width=270></td>
   </tr>
 </table>
