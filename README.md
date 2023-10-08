@@ -141,3 +141,16 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/notes-app.png" width=270></td>
   </tr>
 </table>
+
+ <table>
+  <tr>
+    <td>Article</td>
+    <td>Landing Page Article</td>
+    <td>Article</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/LandingPage-article.png" width=270></td>
+    <td><img src="https://github.com/armadani/Hacktoberfest2023/blob/main/projects%20result/LandingPage-article.png" width=270></td>
+    <td><img src="./projects result/LandingPage-article.png" width=270></td>
+  </tr>
+</table>
