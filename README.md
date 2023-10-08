@@ -65,10 +65,10 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Google Keep CLone</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/sword-gacha-udeannn.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/rock-paper-scissor-sanika.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/length-calc-bagas.PNG" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/google-keep-clone.jpg" width=270></td>
+    <td><img src="projects result/sword-gacha-udeannn.png" width=270 /></td>
+    <td><img src="projects result/rock-paper-scissor-sanika.png" width=270 /></td>
+    <td><img src="projects result/length-calc-bagas.PNG" width=270 /></td>
+    <td><img src="projects result/google-keep-clone.jpg" width=270 /></td>
   </tr>
 </table>
 <table>
@@ -77,67 +77,101 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Calculator</td>
     <td>3D Portfolio</td>
     <td>Array Sort Object JS</td>
-    <td>Show Portfolio</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/youtube-dl-ShirokamiRyzen.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Calculator-ZPitta.png" width=270></td>
-    <td><img src="https://github.com/ShauryaSingh14/Hacktoberfest2023/blob/main/projects%20result/3D-Portfolio-ShauryaSingh14.png" width=270></td>
-    <td><img src="./projects result/array-sort.png" width=270></td>
-    <td><img src="https://raw.githubusercontent.com/tedante/Hacktoberfest2023/main/projects%20result/show-portfolio-tedante.png" width=270></td>
+    <td><img src="projects result/youtube-dl-ShirokamiRyzen.png" width=270 /></td>
+    <td><img src="projects result/Calculator-ZPitta.png" width=270 /></td>
+    <td><img src="projects result/3D-Portfolio-ShauryaSingh14.png" width=270 /></td>
+    <td><img src="projects result/array-sort.png" width=270 /></td>
   </tr>
 </table>
 <table>
   <tr>
+    <td>Show Portfolio</td>
     <td>Text Parse large</td>
     <td>Blog Website</td>
     <td>Register Form React</td>
-    <td>Secrets</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/parse-text-large.png" width=270></td>
-    <td><img src="./projects result/Blog_website.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/register-form-reaact-aiyafi.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Secrets-sharmavikas4.png" width=270></td>
+    <td><img src="projects result/show-portfolio-tedante.png" width=270 /></td>
+    <td><img src="projects result/parse-text-large.png" width=270 /></td>
+    <td><img src="projects result/Blog_website.png" width=270 /></td>
+    <td><img src="projects result/register-form-reaact-aiyafi.png" width=270 /></td>
   </tr>
 </table>
-
 <table>
   <tr>
+    <td>Secrets</td>
     <td>Todo App</td>
     <td>One Page Website</td>
     <td>Car Rental<td>
   </tr>
   <tr>
-    <td><img src="./projects result/todo-app.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/one-page-website.png" width=270></td>
-    <td><img src="https://github.com/mizzcode/Hacktoberfest2023/blob/main/projects%20result/car-rental-mizzcode.png" width="270"><td>
+    <td><img src="projects result/Secrets-sharmavikas4.png" width=270 /></td>
+    <td><img src="projects result/todo-app.png" width=270 /></td>
+    <td><img src="projects result/one-page-website.png" width=270 /></td>
+    <td><img src="projects result/car-rental-mizzcode.png" width="270" /><td>
   </tr>
 </table>
-
- <table>
+<table>
   <tr>
     <td>Statistika Helper</td>
     <td>Shopping E-commerce</td>
     <td>CRUD Product</td>
+    <td>Dice Game</td>
   </tr>
   <tr>
-    <td><img src="./projects result/statistika-helper-rikarani.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/E-commerce.png" width=270></td>
-    <td><img src="./projects result/crud-product-risdatamamal.png" width=270></td>
+    <td><img src="projects result/statistika-helper-rikarani.png" width=270 /></td>
+    <td><img src="projects result/E-commerce.png" width=270 /></td>
+    <td><img src="projects result/crud-product-risdatamamal.png" width=270 /></td>
+    <td><img src="projects result/Dice-Game.PNG" width=270 /></td>
   </tr>
 </table>
-
-
 <table>
   <tr>
-    <td>Dice Game</td>
     <td>Gues Game JavaScript</td>
-  <td>Notes APP</td>
+    <td>Notes APP</td>
+    <td>Web2ls</td>
+    <td>empty_column</td>
   </tr>
   <tr>
-    <td><img src="./projects result/Dice-Game.PNG" width=270></td>
-    <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/gues-game-project.png" width=270></td>
-    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/notes-app.png" width=270></td>
+    <td><img src="projects result/gues-game-project.png" width=270 /></td>
+    <td><img src="projects result/notes-app.png" width=270 /></td>
+    <td><img src="projects result/web2ls.vercel.app-many-tools-you-can-get.png" width=270 /></td>
+    <td><img src="projects result/change_this_img_with_yours.png" width=270 /></td>
   </tr>
 </table>
+<table>
+  <tr>
+    <td>empty_column</td>
+    <td>empty_column</td>
+    <td>empty_column</td>
+    <td>empty_column</td>
+  </tr>
+  <tr>
+    <td><img src="projects result/change_this_img_with_yours.png" width=270 /></td>
+    <td><img src="projects result/change_this_img_with_yours.png" width=270 /></td>
+    <td><img src="projects result/change_this_img_with_yours.png" width=270 /></td>
+    <td><img src="projects result/change_this_img_with_yours.png" width=270 /></td>
+  </tr>
+</table>
+
+## TIPS
+1. this repo's so bloated, to lazy to maintenance or cloned.\
+`tldr:` if you have your own apps with your own repos, please use `git submodule` instead.
+
+`example:`
+```
+git clone git@github.com:sandikodev/Hacktoberfest2023.git
+cd Hacktoberfest2023
+cd projects
+git submodule add git@github.com:username/your_project.git named_your_project
+```
+2. instead turn over many times of commit (*komat-komit*). for previewing in vscode we can use: `ctrl+shift+v`
+3. please limit max column table: `4`
+
+## Analyzed Repo:
+per-this commit `#baf6303d42c14ef4faf93665aa5392205d5cdbad`
+
+![analyze-1](analyze/Sen%2009%20Okt%202023%2012:42:29%20%20WIB.jpg)
+![analyze-1](analyze/Sen%2009%20Okt%202023%2012:47:04%20%20WIB.jpg)
