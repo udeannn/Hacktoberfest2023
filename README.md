@@ -169,3 +169,9 @@ git submodule add git@github.com:username/your_project.git named_your_project
 ```
 2. instead turn over many times of commit (*komat-komit*). for previewing in vscode we can use: `ctrl+shift+v`
 3. please limit max column table: `4`
+
+## Analyzed Repo:
+per-this commit `#baf6303d42c14ef4faf93665aa5392205d5cdbad`
+
+![analyze-1](analyze/Sen%2009%20Okt%202023%2012:42:29%20%20WIB.jpg)
+![analyze-1](analyze/Sen%2009%20Okt%202023%2012:47:04%20%20WIB.jpg)
