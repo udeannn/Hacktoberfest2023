@@ -155,3 +155,17 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="projects result/change_this_img_with_yours.png" width=270 /></td>
   </tr>
 </table>
+
+## TIPS
+1. this repo's so bloated, to lazy to maintenance or cloned.\
+`tldr:` if you have your own apps with your own repos, please use `git submodule` instead.
+
+`example:`
+```
+git clone git@github.com:sandikodev/Hacktoberfest2023.git
+cd Hacktoberfest2023
+cd projects
+git submodule add git@github.com:username/your_project.git named_your_project
+```
+2. instead turn over many times of commit (*komat-komit*). for previewing in vscode we can use: `ctrl+shift+v`
+3. please limit max column table: `4`
