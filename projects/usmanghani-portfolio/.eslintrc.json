@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "@next/next/no-document-import-in-page": "off",
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "yoda": "error",
+    "no-console": ["error", { "allow": ["warn"] }],
+    "array-callback-return": ["error", { "checkForEach": true }],
+    "camelcase": ["error", { "ignoreImports": true, "allow": ["^UNSAFE_"] }],
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "no-unused-vars": "error",
+    "no-useless-return": "error"
+  }
+}

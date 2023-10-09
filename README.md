@@ -128,18 +128,52 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   </tr>
 </table>
 
-
 <table>
   <tr>
     <td>Dice Game</td>
     <td>Gues Game JavaScript</td>
     <td>Notes APP</td>
-    <td>Simple OOP Library System</td>
+    <td>Coinbase Crypto Landingpage</td>
+    <td>Tictactoe Game</td>
+
   </tr>
   <tr>
     <td><img src="./projects result/Dice-Game.PNG" width=270></td>
     <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/gues-game-project.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/notes-app.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/coinbase-landingpage-template.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/tictactoe-game.png" width=270></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>Calculator by HTML-CSS-JS</td>
+    <td>Whois-generator</td>
+    <td>Usman Ghani Portfolio</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/Calculator-by-HTML-CSS-JS_BupendraDhyan.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/whois-generator-alvitoZ.PNG" width=270></td>
+    <td><img src="./projects result/usmanghani-portfolio-usmanghanidev.png" width=270></td>
+  </tr>
+</table>
+
+ <table>
+  <tr>
+    <td>Landing Page Article</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/LandingPage-article.png" width=270></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>JKT48Live Showroom</td>
+    <td>Simple OOP Library System</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/JKT48Live-Showroom-Data-mrzptra.png" width=270></td>
     <td><img src="https://github.com/Katyusha47/Hacktoberfest2023/blob/main/projects%20result/Simple%20OOP%20Library%20Using%20Java.PNG" width=270></td>
   </tr>
 </table>
