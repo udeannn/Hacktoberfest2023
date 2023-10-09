@@ -167,3 +167,11 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/LandingPage-article.png" width=270></td>
   </tr>
 </table>
+<table>
+  <tr>
+    <td>JKT48Live Showroom</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/JKT48Live-Showroom-Data-mrzptra.png" width=270></td>
+  </tr>
+</table>
