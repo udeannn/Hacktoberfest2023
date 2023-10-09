@@ -158,3 +158,12 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/usmanghani-portfolio-usmanghanidev.png" width=270></td>
   </tr>
 </table>
+
+ <table>
+  <tr>
+    <td>Landing Page Article</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/LandingPage-article.png" width=270></td>
+  </tr>
+</table>
