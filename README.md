@@ -135,12 +135,12 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Notes APP</td>
     <td>Coinbase Crypto Landingpage</td>
     <td>Tictactoe Game</td>
+
   </tr>
   <tr>
     <td><img src="./projects result/Dice-Game.PNG" width=270></td>
     <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/gues-game-project.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/notes-app.png" width=270></td>
-
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/coinbase-landingpage-template.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/tictactoe-game.png" width=270></td>
   </tr>
@@ -149,10 +149,11 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 <table>
   <tr>
     <td>Calculator by HTML-CSS-JS</td>
-
+  <td>Whois-generator</td>
   </tr>
   <tr>
     <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/Calculator-by-HTML-CSS-JS_BupendraDhyan.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/whois-generator-alvitoZ.PNG" width=270></td>
 
   </tr>
 </table>
