@@ -10,15 +10,15 @@
 
 ## INSTRUCTIONS
 
-- Fork this Repository using the button at the top on right corner.
-- Clone your forked repository to your pc ( git clone "url from clone option.)
-- Add your profile data in `participant/`
-- Make simple project using HTML, CSS, Javascript in `projects`
-- Add project result image in `projects result`
-- Update README.md and add your project name and project result image
-- Create a pull request
-- Star this repository
-- You can open issue when your PR is problem in event
+-   Fork this Repository using the button at the top on right corner.
+-   Clone your forked repository to your pc ( git clone "url from clone option.)
+-   Add your profile data in `participant/`
+-   Make simple project using HTML, CSS, Javascript in `projects`
+-   Add project result image in `projects result`
+-   Update README.md and add your project name and project result image
+-   Create a pull request
+-   Star this repository
+-   You can open issue when your PR is problem in event
 
 # How To Make Your First Pull Request
 
@@ -42,14 +42,14 @@ country: YOUR COUNTRY
 
 ## 2. Make your project
 
-- Create/Upload your code in folder following the convention `projects`
-- Upload your image project result in folder following the convention `projects result`
+-   Create/Upload your code in folder following the convention `projects`
+-   Upload your image project result in folder following the convention `projects result`
 
 ```
 projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 ```
 
-- Update `README.md` place your image project result and name your project
+-   Update `README.md` place your image project result and name your project
 
 ## 3. Wait for Pull Request to merge
 
@@ -128,16 +128,54 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   </tr>
 </table>
 
-
 <table>
   <tr>
     <td>Dice Game</td>
     <td>Gues Game JavaScript</td>
-  <td>Notes APP</td>
+    <td>Notes APP</td>
+    <td>Coinbase Crypto Landingpage</td>
+    <td>Tictactoe Game</td>
+
   </tr>
   <tr>
     <td><img src="./projects result/Dice-Game.PNG" width=270></td>
     <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/gues-game-project.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/notes-app.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/coinbase-landingpage-template.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/tictactoe-game.png" width=270></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>Calculator by HTML-CSS-JS</td>
+    <td>Whois-generator</td>
+    <td>Usman Ghani Portfolio</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/Calculator-by-HTML-CSS-JS_BupendraDhyan.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/whois-generator-alvitoZ.PNG" width=270></td>
+    <td><img src="./projects result/usmanghani-portfolio-usmanghanidev.png" width=270></td>
+  </tr>
+</table>
+
+ <table>
+  <tr>
+    <td>Landing Page Article</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/LandingPage-article.png" width=270></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>JKT48Live Showroom</td>
+    <td>Simple OOP Library System</td>
+    <td>Movie List App</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/JKT48Live-Showroom-Data-mrzptra.png" width=270></td>
+    <td><img src="https://github.com/Katyusha47/Hacktoberfest2023/blob/main/projects%20result/Simple%20OOP%20Library%20Using%20Java.PNG" width=270></td>
+    <td><img src="https://github.com/OctavianoRyan25/Hacktoberfest2023/blob/main/projects%20result/Movie-app.png" width=270></td>
   </tr>
 </table>
