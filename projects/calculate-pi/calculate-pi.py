@@ -12,6 +12,6 @@ def calculate_pi(number):
 
 if __name__ == "__main__":
     """ higher values achieve more accurate results but take more time """
-    n_terms = [10, 1000, 100000, 10000000]
+    n_terms = [10, 1000, 100000, 10000000, 100000000]
     for n in n_terms:
         print(f"PI ({n}): {calculate_pi(n)}")
