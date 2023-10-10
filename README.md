@@ -171,9 +171,11 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   <tr>
     <td>JKT48Live Showroom</td>
     <td>Simple OOP Library System</td>
+       <td>Janken Games</td>
   </tr>
   <tr>
     <td><img src="./projects result/JKT48Live-Showroom-Data-mrzptra.png" width=270></td>
     <td><img src="https://github.com/Katyusha47/Hacktoberfest2023/blob/main/projects%20result/Simple%20OOP%20Library%20Using%20Java.PNG" width=270></td>
+        <td><img src="./projects result/Janken-Games-fahmi-azzuhri.png" width=270></td>
   </tr>
 </table>
