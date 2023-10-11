@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: cursive;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+main {
+  min-width: 80vw;
+  min-height: 50vh;
+  border: 3px dashed black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+header {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+div:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
