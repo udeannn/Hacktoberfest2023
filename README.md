@@ -107,11 +107,13 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Todo App</td>
     <td>One Page Website</td>
     <td>Car Rental<td>
+    <td>PlayerPedia<td>
   </tr>
   <tr>
     <td><img src="./projects result/todo-app.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/one-page-website.png" width=270></td>
     <td><img src="https://github.com/mizzcode/Hacktoberfest2023/blob/main/projects%20result/car-rental-mizzcode.png" width="270"><td>
+    <td><img src="./projects result/PlayerPediaPreview.png" width=270></td>
   </tr>
 </table>
 
