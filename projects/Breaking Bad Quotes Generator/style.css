@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+nav a {
+  padding: 10px;
+  color: #29773e;
+}
+section {
+  height:50vh;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #396457;
+  margin: 1rem;
+  border-radius: 1rem;
+  gap: 0.5rem;
+  overflow-x: hidden;
+  padding: 1rem;
+}
+
+button {
+  overflow: hidden;
+  position: relative;
+  background-color: #29773e;
+  outline: 1px solid transparent;
+  outline-offset: 0;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  outline: 2px solid white;
+  outline-offset: 2px;
+  border-radius: 20px;
+
+}
+
+
+button::before{
+  content:"";
+  display: block;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-200px) rotate(30deg);
+  background-color: rgba(255, 255, 255, 0.675);
+  filter: blur(5px);
+  transition: .8s;
+}
+
+button:focus:before{
+  transform: translateX(200px) rotate(30deg);
+}
+
+q {
+  display: block;
+  font-size: 2rem;
+  transform: translateX(0%);
+  color: white;
+}
+
+.clicked {
+  animation: fly 1s ease-in-out forwards;
+}
+@keyframes fly {
+  to {
+    transform: translateX(200%);
+    color: transparent;
+  }
+}
+
+.quoters {
+  font-size: 1.5rem;
+  color: #29773e;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.character {
+  font-weight: bold;
+  color: #29773e;
+}
