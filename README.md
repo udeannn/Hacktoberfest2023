@@ -164,11 +164,14 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Landing Page Article</td>
     <td>Colorthief Test</td>
     <td>Roll The Dice</td>
+    <td>Breaking Bad Quotes Generator</td>
+    
   </tr>
   <tr>
     <td><img src="./projects result/@colorthief.png" width=270></td>
     <td><img src="./projects result/LandingPage-article.png" width=270></td>
     <td><img src="./projects result/Roll_The_Dice.png" width=270></td>
+    <td><img src="./projects Breaking-Bad-Quotes-hawryyy30.png" width=270></td>
   </tr>
 </table>
 <table>
