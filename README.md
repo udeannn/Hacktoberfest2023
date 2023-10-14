@@ -192,6 +192,13 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
         <td><img src="./projects result/Janken-Games-fahmi-azzuhri.png" width=270></td>
         <td><img src="./projects result/mouse-movement-rohitPandey469.png" width=270></td>
   </tr>
+</table>
+<table>
+  <tr>
+    <td>IP Info</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/ip-info-hendrahend.png" width=270></td>
 
-
-
+  </tr>
+</table>
