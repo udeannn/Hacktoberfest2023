@@ -122,11 +122,14 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Statistika Helper</td>
     <td>Shopping E-commerce</td>
     <td>CRUD Product</td>
+    <td>Portfolio Resume</td>
   </tr>
   <tr>
     <td><img src="./projects result/statistika-helper-rikarani.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/E-commerce.png" width=270></td>
     <td><img src="./projects result/crud-product-risdatamamal.png" width=270></td>
+    <td><img src="./projects result/portfolioresume_porkalai39.png" width=270></td>
+    
   </tr>
 </table>
 
