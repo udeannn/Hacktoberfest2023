@@ -196,6 +196,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 <table>
   <tr>
     <td>IP Info</td>
+    <td>Scoreboard</td>
   </tr>
   <tr>
     <td><img src="./projects result/ip-info-hendrahend.png" width=270></td>
