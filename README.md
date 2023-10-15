@@ -199,6 +199,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   </tr>
   <tr>
     <td><img src="./projects result/ip-info-hendrahend.png" width=270></td>
+    <td><img src="./projects result/scoreboard-Raefelian.png" width=270></td>
 
   </tr>
 </table>
