@@ -196,9 +196,11 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 <table>
   <tr>
     <td>IP Info</td>
+    <td>Login Kit Tailwind</td>
   </tr>
   <tr>
     <td><img src="./projects result/ip-info-hendrahend.png" width=270></td>
-
+    <td><img src="./projects result/login-kit-tailwind.png" width=270></td>
   </tr>
+
 </table>
