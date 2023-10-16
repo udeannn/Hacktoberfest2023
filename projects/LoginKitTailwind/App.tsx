@@ -7,7 +7,6 @@
 
 import React, {useState} from 'react';
 import {
-  Button,
   Image,
   SafeAreaView,
   Text,
@@ -54,11 +53,7 @@ function App(): JSX.Element {
         </View>
       </View>
 
-      <View
-        className="gap-y-8 pt-2"
-        style={{
-          justifyContent: 'flex-start',
-        }}>
+      <View className="gap-y-8 pt-2">
         <TextInput
           className="border-[1px] border-purple-500 w-['100%] rounded-lg bg-purple-50 px-3"
           placeholder="Enter email or user name"
@@ -98,7 +93,6 @@ function App(): JSX.Element {
 
         <TouchableOpacity
           className="w-fit bg-violet-700 rounded-lg py-4 items-center h-[60px] justify-center"
-          style={{}}
           onPress={handleLogin}>
           <Text className="font-medium text-white text-[16px]">Login</Text>
         </TouchableOpacity>
