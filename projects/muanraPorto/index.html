@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css'>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Muhamad Dian Rahendra</div>
+                <div class="text-3">and I'm a <span class="typing"></span></div>
+                <a href="#contact">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section -->
+    <section class="about" id="about">
+        <h2 class="title">About Me</h2>
+        <div class="max-width">
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./assets/gwalmet.jpg" alt="Foto saya">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Dian and I'm a <span class="typing-2"></span></div>
+                    <p>I am an undergraduate student at Universitas Pembangunan Nasional "Veteran" Jakarta, majoring in stratum one information system, faculty of computer science. I'm currently looking for an internship, part-time, or freelance program in the field of designing and developing your website or application. Although I still don't have much experience but I will try my best.</p>
+                    <a href="./assets/CV.pdf" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services Section -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-globe"></i>
+                        <div class="text">Web Developer/Design</div>
+                        <p>I can assist you in working on website projects, front-end and a little bit back-end.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-users"></i>
+                        <div class="text">UI/UX Design/Research</div>
+                        <p>I can also join and help your UI/UX team!. I'm pretty good at interact with people.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-search"></i>
+                        <div class="text">Data Science</div>
+                        <p>I can also assist your team with basic data visualizations and play with some SQL!</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </section>
+
+    <!--Skill Section-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>I can use several programming languages such as HTML, CSS, JavaScript, PHP and others. I can also use some applications for designing such as figma, marvelapp, and maze for testing. I am also able to use various office applications. I can work in a team from various backgrounds, because currently I am still in college so I often work in groups. I'm sure I have enough creativity but I will continue to develop my creativity through the projects I will be working on. And for experience, such as working in a company, I'm still very lacking. Therefore I will continue to try to improve it. I really like learning new things because for me it will greatly improve my skills and experiences.</p>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--project Section-->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                   <div class="box">
+                        <img src="./assets/projek1.png" alt="">
+                        <div class="text">Toko Bunga Muanra</div>
+                        <p>Muanra's Flower Store website design using bootstrap</p>
+                   </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                         <img src="./assets/projek2.png" alt="">
+                         <div class="text">Muanra Knowledge</div>
+                         <p>Some random design knowledge site that might come in handy!</p>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                         <img src="./assets/projek3.png" alt="">
+                         <div class="text">Chinese Cuisine</div>
+                         <p>Design website landing page chinese cuisine with figma.</p>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                         <img src="./assets/projek5.png" alt="">
+                         <div class="text">Basic Portfolio Website</div>
+                         <p>basic design personal website using CSS HTML JS.</p>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                         <img src="./assets/projek4.jpg" alt="">
+                         <div class="text">Easy Navigation</div>
+                         <p>Design mobile UI/UX high fidelity using figma.</p>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                         <img src="./assets/projek7.jpg" alt="">
+                         <div class="text">Sipres Mahasiswa</div>
+                         <p>High fidelity onboard Design for presence system.</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact section-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>stay connected with me! feel free to message me, whether it's a job offer or just a chat!
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Muhamad Dian Rahendra</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Jl. edelweis 7 perumahan vila mutiara gading rivera, Tambun Utara, Kab. Bekasi, Jawa Barat.</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">muhamaddr@upnvj.ac.id</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text">Send me an <span><a href="mailto:muhamaddr@upnvj.ac.id">Email </a></span>!</div>
+                    <div class="d-flex">
+                        <a href="https://github.com/Muanra217" target="_blank">
+                          <i class="bi bi-github" style="font-size: 2rem;"></i>
+                        </a>
+                        <a class="px-4" href="https://www.linkedin.com/in/muanra217/" target="_blank">
+                          <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
+                        </a>
+                        <a href="https://wa.me/6285711097085" target="_blank">
+                          <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
+                        </a>
+                        <a href="https://twitter.com/dian_nfs21" target="_blank">
+                            <i class="bi bi-twitter" style="font-size: 2rem;"></i>
+                        </a>
+                        <a href="https://www.facebook.com/muanra217/" target="_blank">
+                            <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/muanra217/" target="_blank">
+                            <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer section-->
+    <footer>
+        <span>Created By <a href="https://www.linkedin.com/in/muanra217/" target="_blank">Muanra</a> | <span class="far fa-copyright"></span>2021 All rights reserved.</span>
+    </footer>
+
+
+    <script src="/script/script.js"></script>
+</body>
+</html>
