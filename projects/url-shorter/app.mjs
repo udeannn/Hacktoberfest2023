@@ -6,11 +6,12 @@ import mongoose from "mongoose";
 import { nanoid } from 'nanoid';
 import cors from "cors";
 import bodyParser from "body-parser";
+require('dotenv').config();
 
 
 app.set("view engine", "ejs");
 
-mongoose.connect("mongodb+srv://onlyvibhore:vanshu27@cluster0.tewksvm.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("process.env.MONGODB_URI ", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -22,6 +23,8 @@ const Url = mongoose.model('Url', UrlSchema);
 
 app.use(express.json());
 app.use(cors()); 
+
+
 
 app.post('/shorten', async (req, res) => {
   // Code for creating short URLs...
