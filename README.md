@@ -51,6 +51,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 
 - Update `README.md` place your image project result and name your project
 
+  <tr>
 ## 3. Wait for Pull Request to merge
 
 ## 4. Congratulations on completing your first pull request!!
@@ -59,12 +60,13 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 
 <table>
   <tr>
+    <td>Dummy User API</td>
     <td>Gacha Weapon</td>
     <td>Rock Paper Scissor</td>
     <td>Length Calc</td>
     <td>Google Keep CLone</td>
   </tr>
-  <tr>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/dummyuserapi.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/sword-gacha-udeannn.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/rock-paper-scissor-sanika.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/length-calc-bagas.PNG" width=270></td>
@@ -170,13 +172,14 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Colorthief Test</td>
     <td>Roll The Dice</td>
     <td>Breaking Bad Quotes Generator</td>
-    
+    <td>Muanra Porto</td>
   </tr>
   <tr>
     <td><img src="./projects result/@colorthief.png" width=270></td>
     <td><img src="./projects result/LandingPage-article.png" width=270></td>
     <td><img src="./projects result/Roll_The_Dice.png" width=270></td>
     <td><img src="./projects result/Breaking-Bad-Quotes-hawryyy30.png" width=270></td>
+    <td><img src="./projects result/muanraPorto.png" width=270></td>
   </tr>
 </table>
 <table>
@@ -197,10 +200,12 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   <tr>
     <td>IP Info</td>
     <td>Login Kit Tailwind</td>
+    <td>Google Search Landing Page</td>
   </tr>
   <tr>
     <td><img src="./projects result/ip-info-hendrahend.png" width=270></td>
     <td><img src="./projects result/login-kit-tailwind.png" width=270></td>
+    <td><img src="./projects result/google_search_landing_page.png" width=270></td>
   </tr>
-
 </table>
+
