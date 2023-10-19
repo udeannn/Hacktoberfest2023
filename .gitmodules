@@ -1,0 +1,3 @@
+[submodule "projects/Web2ls"]
+	path = projects/Web2ls
+	url = git@github.com:sandikodev/web2ls.git

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #07050b;
+  color: white;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  font-size: 10px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+header .logo {
+  margin-left: 25px;
+}
+header .menu-items ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+header .menu-items ul li {
+  margin: 0px 15px;
+}
+header .menu-items ul .special {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+header .lang {
+  margin-right: 25px;
+}
+.wrapper {
+  position: absolute;
+  bottom: 0%;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wrapper img {
+  height: 100vh;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 30px;
+  height: fit-content;
+}
+.left-container {
+  margin-left: 25px;
+}
+.left-container-1 h1 {
+  width: 50%;
+  margin: 10px 0px;
+  line-height: 95%;
+  font-size: 50px;
+  font-weight: lighter;
+}
+.left-container-2 {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  cursor: pointer;
+}
+.left-container-2 .left-container-2-1 {
+  width: 40%;
+}
+.left-container-2 .left-container-2-2 {
+  margin: 0px 20px;
+}
+.left-container-2 .left-container-2-2 p {
+  margin-bottom: 4px;
+  text-decoration: underline;
+}
+.left-container-2 p {
+  font-size: 10px;
+  line-height: 170%;
+  color: #a0a0a0;
+}
+.container .right-container {
+  margin-right: 25px;
+  background-color: white;
+  color: black;
+  width: 500px;
+  height: fit-content;
+  font-size: 10px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.right-container-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: fit-content;
+}
+.right-container-box .right-container-box-inner-1,
+.right-container-box .right-container-box-inner-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.right-container-box h1 {
+  font-size: 15px;
+}
+.right-container-box p {
+  font-size: 10px;
+}
+span {
+  overflow: hidden;
+  display: block;
+}
