@@ -158,11 +158,13 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Calculator by HTML-CSS-JS</td>
     <td>Whois-generator</td>
     <td>Usman Ghani Portfolio</td>
+    <td>Movie App</td>
   </tr>
   <tr>
     <td><img src="https://github.com/albimdkr/Hacktoberfest2023/blob/main/projects%20result/Calculator-by-HTML-CSS-JS_BupendraDhyan.png" width=270></td>
     <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/whois-generator-alvitoZ.PNG" width=270></td>
     <td><img src="./projects result/usmanghani-portfolio-usmanghanidev.png" width=270></td>
+    <td><img src="https://github.com/udeannn/Hacktoberfest2023/blob/main/projects%20result/Movie-app.png" width=270></td>
   </tr>
 </table>
 
@@ -210,4 +212,3 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/google_search_landing_page.png" width=270></td>
   </tr>
 </table>
-
