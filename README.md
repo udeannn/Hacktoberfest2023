@@ -209,5 +209,15 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/login-kit-tailwind.png" width=270></td>
     <td><img src="./projects result/google_search_landing_page.png" width=270></td>
   </tr>
+  
 </table>
 
+<table>
+  <tr>
+    <td>Password Generator</td>
+  </tr>
+  <tr>
+    <td><img src="./projects%20result/password_generator-Darkrider0007" width=270></td>
+  </tr>
+  
+</table>
