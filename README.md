@@ -217,7 +217,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Password Generator</td>
   </tr>
   <tr>
-    <td><img src="./projects%20result/password_generator-Darkrider0007" width=270></td>
+    <td><img src="./projects%20result/password_generator-Darkrider0007.png" width=270></td>
   </tr>
   
 </table>
