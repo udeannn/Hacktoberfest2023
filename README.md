@@ -52,6 +52,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 - Update `README.md` place your image project result and name your project
 
   <tr>
+
 ## 3. Wait for Pull Request to merge
 
 ## 4. Congratulations on completing your first pull request!!
@@ -210,4 +211,14 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/google_search_landing_page.png" width=270></td>
   </tr>
 </table>
+<table>
+  <tr>
+    <td>Password Generator</td>
+    <td>Simple Website</td>
 
+  </tr>
+  <tr>
+    <td><img src="./projects result/password_generator.jpg" width=270></td>
+ 
+  </tr>
+</table>
