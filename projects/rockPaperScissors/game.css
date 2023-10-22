@@ -1,0 +1,35 @@
+#gameDiv{
+    text-align: center;
+    padding-top: 80px;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: rgb(201, 201, 135);
+
+}
+body{
+    background-color: rgb(255, 249, 249);
+}
+#playerText{
+    color: rgb(7, 74, 122);
+    font-family: cursive;
+    font-size: xx-large;
+}
+#computerText{
+    color: rgb(35, 3, 3);
+    font-family: cursive;
+    font-size: xx-large;
+}
+#resultText{
+    color: rgb(194, 39, 39);
+    font-family: cursive;
+    font-size: xx-large;
+}
+.choiceBtn{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: bisque;
+    color: rgb(96, 76, 114);
+    font-family: cursive;
+    font-size: x-large;
+}
