@@ -52,6 +52,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 - Update `README.md` place your image project result and name your project
 
   <tr>
+
 ## 3. Wait for Pull Request to merge
 
 ## 4. Congratulations on completing your first pull request!!
@@ -201,22 +202,38 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>IP Info</td>
     <td>Todo App</td>
     <td>Login Kit Tailwind</td>
-    <td>Google Search Landing Page</td>
+    <td>Google Search Landing Page</td> 
+    <td>Typing-speed-detector</td>
   </tr>
   <tr>
     <td><img src="./projects result/ip-info-hendrahend.png" width=270></td>
     <td><img src="./projects result/vanilla-js-todolist-khrisdaniels.png" width=270></td>
     <td><img src="./projects result/login-kit-tailwind.png" width=270></td>
     <td><img src="./projects result/google_search_landing_page.png" width=270></td>
-  </tr>
-  </table>
-  <table>
-  <tr>
-  <td>Typing-speed-detector</td>
-  </tr>
-  <tr>
+    
   <td><img src="./projects result/Typing-speed-detector-Neha00011.png" width=270></td>
   </tr>
-  </table>
+</table>
+<table>
+  <tr>
+    <td>NodeJS Database Basic</td>
+  </tr>
+  <tr>
+    <td><img src="./projects result/nodejs-db-basic.png" width=270></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>Password Generator</td>
+    <td>Simple Website</td>
+    <td>Password Generator</td>
 
-
+  </tr>
+  <tr>
+    <td><img src="./projects result/password_generator.jpg" width=270></td>
+    <td></td>
+    <td><img src="./projects%20result/password_generator-Darkrider0007.png" width=270></td>
+ 
+  </tr>
+  
+</table>
