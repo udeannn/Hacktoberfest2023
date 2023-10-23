@@ -52,6 +52,7 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 - Update `README.md` place your image project result and name your project
 
   <tr>
+
 ## 3. Wait for Pull Request to merge
 
 ## 4. Congratulations on completing your first pull request!!
@@ -219,13 +220,18 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td><img src="./projects result/nodejs-db-basic.png" width=270></td>
   </tr>
 </table>
-
 <table>
   <tr>
     <td>Password Generator</td>
+    <td>Simple Website</td>
+    <td>Password Generator</td>
+
   </tr>
   <tr>
+    <td><img src="./projects result/password_generator.jpg" width=270></td>
+    <td></td>
     <td><img src="./projects%20result/password_generator-Darkrider0007.png" width=270></td>
+ 
   </tr>
   
 </table>
