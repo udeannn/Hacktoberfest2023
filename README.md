@@ -229,13 +229,13 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
     <td>Password Generator</td>
     <td>Simple Website</td>
     <td>Password Generator</td>
-
+    <td>To-Do Application</td>
   </tr>
   <tr>
     <td><img src="./projects result/password_generator.jpg" width=270></td>
     <td></td>
     <td><img src="./projects%20result/password_generator-Darkrider0007.png" width=270></td>
- 
+    <td><img src="./projects%20result/todo.png" width=270></td>
   </tr>
   
 </table>
