@@ -239,3 +239,14 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   </tr>
   
 </table>
+
+<table>
+  <tr>
+    <td>Whack A Mole Game</td>
+  </tr>
+  <tr>
+    <td><img src="./projects%20result/whack_a_mole.png" width=270></td>
+ 
+  </tr>
+  
+</table>
