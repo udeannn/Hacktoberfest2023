@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Whack-a-Mole Game</h1>
+        <p>Click on the moles to score points. Be quick!</p>
+    </div>
+    <button class="restart-btn" id="restartBtn">Restart Game</button>
+    <div class="game-container">
+        <div class="hole" id="hole1"></div>
+        <div class="hole" id="hole2"></div>
+        <div class="hole" id="hole3"></div>
+    </div>
+    <div class="scoreline">
+        Score: <span id="score">0</span> | Misses: <span id="misses">0</span>
+    </div>
+    <div class="end-message" id="endMessage"></div>
+    <script src="script.js"></script>
+</body>
+</html>
