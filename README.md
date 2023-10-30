@@ -10,15 +10,15 @@
 
 ## INSTRUCTIONS
 
-- Fork this Repository using the button at the top on right corner.
-- Clone your forked repository to your pc ( git clone "url from clone option.)
-- Add your profile data in `participant/`
-- Make simple project using HTML, CSS, Javascript in `projects`
-- Add project result image in `projects result`
-- Update README.md and add your project name and project result image
-- Create a pull request
-- Star this repository
-- You can open issue when your PR is problem in event
+-   Fork this Repository using the button at the top on right corner.
+-   Clone your forked repository to your pc ( git clone "url from clone option.)
+-   Add your profile data in `participant/`
+-   Make simple project using HTML, CSS, Javascript in `projects`
+-   Add project result image in `projects result`
+-   Update README.md and add your project name and project result image
+-   Create a pull request
+-   Star this repository
+-   You can open issue when your PR is problem in event
 
 # How To Make Your First Pull Request
 
@@ -42,16 +42,16 @@ country: YOUR COUNTRY
 
 ## 2. Make your project
 
-- Create/Upload your code in folder following the convention `projects`
-- Upload your image project result in folder following the convention `projects result`
+-   Create/Upload your code in folder following the convention `projects`
+-   Upload your image project result in folder following the convention `projects result`
 
 ```
 projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 ```
 
-- Update `README.md` place your image project result and name your project
+-   Update `README.md` place your image project result and name your project
 
-  <tr>
+    <tr>
 
 ## 3. Wait for Pull Request to merge
 
@@ -218,10 +218,12 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
   <tr>
     <td>NodeJS Database Basic</td>
     <td>mip porto</td>
+    <td>weather2</td>
   </tr>
   <tr>
     <td><img src="./projects result/nodejs-db-basic.png" width=270></td>
     <td><img src="./projects result/mip-porto.png" width=270></td>
+    <td><img src="./projects result/weather2.PNG" width=270></td>
   </tr>
 </table>
 <table>

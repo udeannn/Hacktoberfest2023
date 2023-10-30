@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hacktoberfest | weather2</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body class="flex h-screen w-full items-center justify-center bg-[#343d4b] font-montserrat">
+        <div
+            id="container"
+            class="container flex h-96 max-w-screen-sm rounded-3xl text-white bg-[#222831] shadow-[0_0_70px_-10px_rgba(0,0,0,0.2)] justify-between"
+        >
+            <div
+                id="weather-side"
+                class="relative h-full w-72 bg-cover bg-center bg-no-repeat rounded-3xl float-left shadow-[0_0_20px_-10px_rgba(0,0,0,0.2)] transition-transform duration-300 ease-in-out transform translate-z-0 scale-[1.02] perspective-1000 hover:scale-[1.1] hover:perspective-[1500px] hover:rotate-y-[10deg]"
+                style="background-image: url(./assets/img/Jombang.jpg)"
+            >
+                <div
+                    id="weather-gradient"
+                    class="absolute h-full w-full top-0 left-0 rounded-3xl opacity-80 bg-gradient-to-br from-[#5151E5] from-30% to-[#72EDF2] to-70%"
+                ></div>
+                <div id="date-container" class="absolute top-6 left-6">
+                    <h2 id="date-dayname" class="m-0 font-semibold text-2xl"></h2>
+                    <span id="date-day" class="block"></span>
+                    <i id="location-icon" data-feather="map-pin" class="inline-block h-3 w-auto mr-1"></i>
+                    <span id="location" class="inline-block mt-2">Jombang, Jawa Timur</span>
+                </div>
+                <div id="weather-container" class="absolute bottom-6 left-6">
+                    <i id="weather-icon" data-feather="sun" class="h-14 w-auto"></i>
+                    <h1 id="weather-temp" class="m-0 font-bold text-6xl"></h1>
+                    <h3 id="weather-desc" class="m-0 font-semibold text-xl">Cerah</h3>
+                </div>
+            </div>
+            <div id="info-side" class="flex flex-col relative h-full w-[52%] justify-center">
+                <div id="today-info-container">
+                    <div id="today-info" class="flex flex-col p-4 mt-0 mr-6 mb-4 ml-6 rounded-lg">
+                        <div id="precipitation" class="mb-2">
+                            <span id="title" class="font-bold float-left">TEKANAN</span>
+                            <span id="value-1" class="float-right"></span>
+                            <div id="clear" class="clear-both"></div>
+                        </div>
+                        <div id="humidity" class="mb-2">
+                            <span id="title" class="font-bold float-left">KELEMBABAN</span>
+                            <span id="value-2" class="float-right"></span>
+                            <div id="clear" class="clear-both"></div>
+                        </div>
+                        <div id="wind" class="mb-2">
+                            <span id="title" class="font-bold float-left">KECEPATAN ANGIN</span>
+                            <span id="value-3" class="float-right"></span>
+                            <div id="clear" class="clear-both"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="week-container">
+                    <ul id="week-list" class="flex flex-row p-0 my-2 mx-9">
+                        <li
+                            id="active"
+                            class="flex flex-col bg-white text-[#222831] p-4 rounded-xl transition duration-200 ease-linear cursor-pointer hover:bg-white hover:text-[#222831] hover:transform hover:scale-[1.1]"
+                        >
+                            <i id="day-icon" class="h-7 w-auto m-0" data-feather="sun"></i>
+                            <span id="day-name-1" class="block mt-2 text-center"></span>
+                            <span id="day-temp-1" class="block mt-2 font-bold text-center"></span>
+                        </li>
+                        <li
+                            class="flex flex-col p-4 rounded-xl transition duration-200 ease-linear cursor-pointer hover:bg-white hover:text-[#222831] hover:transform hover:scale-[1.1]"
+                        >
+                            <i id="day-icon" class="h-7 w-auto m-0" data-feather="cloud"></i>
+                            <span id="day-name-2" class="block mt-2 text-center"></span>
+                            <span id="day-temp-2" class="block mt-2 font-bold text-center"></span>
+                        </li>
+                        <li
+                            class="flex flex-col p-4 rounded-xl transition duration-200 ease-linear cursor-pointer hover:bg-white hover:text-[#222831] hover:transform hover:scale-[1.1]"
+                        >
+                            <i id="day-icon" class="h-7 w-auto m-0" data-feather="cloud-snow"></i>
+                            <span id="day-name-3" class="block mt-2 text-center"></span>
+                            <span id="day-temp-3" class="block mt-2 font-bold text-center"></span>
+                        </li>
+                        <li
+                            class="flex flex-col p-4 rounded-xl transition duration-200 ease-linear cursor-pointer hover:bg-white hover:text-[#222831] hover:transform hover:scale-[1.1]"
+                        >
+                            <i id="day-icon" class="h-7 w-auto m-0" data-feather="cloud-rain"></i>
+                            <span id="day-name-4" class="block mt-2 text-center"></span>
+                            <span id="day-temp-4" class="block mt-2 font-bold text-center"></span>
+                        </li>
+                        <div id="clear" class="clear-both"></div>
+                    </ul>
+                </div>
+                <div id="location-container" class="px-9 py-6">
+                    <button
+                        id="location-button"
+                        class="flex justify-center items-center outline-none w-full border-none rounded-3xl p-[10px] text-white font-bold cursor-pointer bg-gradient-to-br from-[#5151E5] from-20% to-[#72EDF2] to-80% transition duration-200 ease-linear hover:transform hover:scale-95"
+                    >
+                        <i data-feather="map-pin" class="h-4 w-auto mr-1"></i>
+                        <span>Ganti Lokasi</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="/dist/assets/js/script.js"></script>
+    </body>
+</html>
