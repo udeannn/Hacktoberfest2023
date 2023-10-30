@@ -243,10 +243,11 @@ projects result/YOUR-PROJECT-NAME-YOUR-USERNAME.png
 <table>
   <tr>
     <td>Whack A Mole Game</td>
+    <td>kLargest</td>
   </tr>
   <tr>
     <td><img src="./projects%20result/whack_a_mole.png" width=270></td>
- 
+    <td><img src="./projects result/kLargest-cybersholt.png" width=270 alt="kLargest by cybersholt"></td>
   </tr>
   
 </table>
