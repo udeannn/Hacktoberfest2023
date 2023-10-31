@@ -1,0 +1,2 @@
+tailwindcss
+tailwindcss-3d
